@@ -20,6 +20,7 @@
 		F1A3D4AB1ED0518600A6DA76 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3D4AA1ED0518600A6DA76 /* ExtensionDelegate.swift */; };
 		F1A3D4AD1ED0518600A6DA76 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3D4AC1ED0518600A6DA76 /* ComplicationController.swift */; };
 		F1A3D4AF1ED0518600A6DA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A3D4AE1ED0518600A6DA76 /* Assets.xcassets */; };
+		F1A3D4C11ED0538D00A6DA76 /* BleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3D4C01ED0538D00A6DA76 /* BleHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		F1A3D4AC1ED0518600A6DA76 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		F1A3D4AE1ED0518600A6DA76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A3D4B01ED0518600A6DA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A3D4C01ED0538D00A6DA76 /* BleHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				F1A3D4851ED0518500A6DA76 /* AppDelegate.swift */,
 				F1A3D4871ED0518500A6DA76 /* ViewController.swift */,
+				F1A3D4C01ED0538D00A6DA76 /* BleHandler.swift */,
 				F1A3D4891ED0518500A6DA76 /* Main.storyboard */,
 				F1A3D48C1ED0518500A6DA76 /* Assets.xcassets */,
 				F1A3D48E1ED0518500A6DA76 /* LaunchScreen.storyboard */,
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1A3D4881ED0518500A6DA76 /* ViewController.swift in Sources */,
+				F1A3D4C11ED0538D00A6DA76 /* BleHandler.swift in Sources */,
 				F1A3D4861ED0518500A6DA76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
